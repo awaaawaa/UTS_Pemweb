@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Form Booking Service</title>
+    </head>
+    <style>
+         .w-1 {
+      width: 1rem;
+    }
+    </style>
+    <body>
+            <fieldset>
+               <legend><b>Booking Service</b></legend>
+
+             <label for="kendaraan">Jenis Kendaraan </label>
+             <select id="kendaraan" name="kendaraan">
+               <option value="M">minibus</option>
+               <option value="O">motor</option>
+               <option value="P">pesawat</option>
+             </select>
+             <br>
+             <br>
+             <label for="teks">Nama Pemesan </label>
+             <input name="nama" placeholder="masukan nama anda" type="text">
+             <br>
+             <br>
+             <label for="JP" class="w-1">Kategoeri Peminjam:</label>
+               <input type="radio" class="w-1" value="P" name="JP" for="JP">
+               <label for="JP">Pribadi</label>
+               <input type="radio" class="w-1" value="P" name="JP" for="JP">
+               <label for="JP">Perusahaan/Organisai</label>
+              <br>
+              <br>
+            <tr>
+              <td>Deskripsi Kebutuhan :</td>
+              <br>  
+              <textarea id="description" name="description" rows="6"></textarea>
+            </tr>
+            <br>
+            <label for="">Tanggal dan Waktu</label>
+            <input type="datetime-local" name="tanggal dan waktu" placeholder="">
+            <br>
+            <label for="teks">Reques Montir</label>
+             <input name="nama" placeholder="masukan nama montir" type="text">
+             <br>
+             <label for="teks">Telepon/HP</label>
+             <input name="nama" placeholder="masukan telepon/hp anda" type="text">
+             <br>
+             <label for="teks">Email</label>
+             <input name="nama" placeholder="masukan email anda" type="text">
+              <br>
+              <br>
+              <td>
+                <button> <a>Submit</a></button>
+                <button> <a>Reset</a></button>
+              </td>
+            </fieldset>
+        </form>
+    </body>
+</html>
